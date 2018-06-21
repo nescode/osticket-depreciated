@@ -14,7 +14,7 @@ notes: |
 subject: |
     Ticket Assigned to you
 body: |
-    <h3><strong>Hi %{assignee.name.first},</strong></h3>
+    <h3><strong>Hello %{assignee.name.first},</strong></h3>
     Ticket <a href="%{ticket.staff_link}">#%{ticket.number}</a> has been
     assigned to you by %{assigner.name.short}
     <br>
@@ -50,5 +50,3 @@ body: |
     <em style="font-size: small; ">Your friendly Customer Support
     System</em>
     <br>
-    <img src="cid:b56944cb4722cc5cda9d1e23a3ea7fbc"
-    alt="Powered by Nescode" width="126" height="19" style="width: 126px;">
