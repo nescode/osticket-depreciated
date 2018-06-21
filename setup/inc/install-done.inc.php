@@ -30,12 +30,12 @@ $url=URL;
                 </tr>
                 <tr>
                     <td width="50%">
-                        <strong><?php echo __('osTicket Forums');?>:</strong><Br>
-                        <a href="#">http://osticket.com/forum/</a>
+                        <strong><?php echo __('Nescode Forums');?>:</strong><Br>
+                        <a href="#">http://nescode.com</a>
                     </td>
                     <td width="50%">
-                        <strong><?php echo __('osTicket Community Wiki');?>:</strong><Br>
-                        <a href="#">http://osticket.com/wiki/</a>
+                        <strong><?php echo __('Nescode Community Wiki');?>:</strong><Br>
+                        <a href="#">http://nescode.com</a>
                     </td>
                 </tr>
             </table>
@@ -43,7 +43,7 @@ $url=URL;
     </div>
     <div id="sidebar">
             <h3><?php echo __("What's Next?");?></h3>
-            <p><b><?php echo __('Post-Install Setup');?></b>: <?php echo sprintf(__('You can now log in to %1$s Admin Panel %2$s with the username and password you created during the install process. After a successful log in, you can proceed with post-install setup.'), '<a href="../scp/admin.php" target="_blank">','</a>'); echo sprintf(__('For complete and upto date guide see %1$s osTicket wiki %2$s'), '<a href="http://osticket.com/wiki/Post-Install_Setup_Guide" target="_blank">', '</a>');?></p>
+            <p><b><?php echo __('Post-Install Setup');?></b>: <?php echo sprintf(__('You can now log in to %1$s Admin Panel %2$s with the username and password you created during the install process. After a successful log in, you can proceed with post-install setup.'), '<a href="../scp/admin.php" target="_blank">','</a>'); echo sprintf(__('For complete and upto date guide see %1$s osTicket wiki %2$s'), '<a href="http://nescode.com" target="_blank">', '</a>');?></p>
 
-            <p><b><?php echo __('Commercial Support Available');?></b>: <?php echo __("Don't let technical problems impact your osTicket implementation. Get guidance and hands-on expertise to address unique challenges and make sure your osTicket runs smoothly, efficiently, and securely.");?> <a target="_blank" href="http://osticket.com/support"><?php echo __('Learn More!');?></a></p>
+            <p><b><?php echo __('Commercial Support Available');?></b>: <?php echo __("Don't let technical problems impact your osTicket implementation. Get guidance and hands-on expertise to address unique challenges and make sure your osTicket runs smoothly, efficiently, and securely.");?> <a target="_blank" href="http://nescode.com/support"><?php echo __('Learn More!');?></a></p>
    </div>

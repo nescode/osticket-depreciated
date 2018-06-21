@@ -24,7 +24,7 @@ if (($lang = Internationalization::getCurrentLanguage())
                    foreach($wizard['menu'] as $k=>$v)
                     echo sprintf('<a target="_blank" href="%s">%s</a> &mdash; ',$v,$k);
                    ?>
-                    <a target="_blank" href="http://osticket.com/contact-us"><?php echo __('Contact Us');?></a>
+                    <a target="_blank" href="http://nescode.com/contact"><?php echo __('Contact Us');?></a>
                 </li>
             </ul>
             <div class="flags">
